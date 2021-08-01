@@ -14,7 +14,7 @@ pipeline {
         }
         stage('---package---') {
             steps {
-                sh "Packaging"
+                sh "echo 'Packaging'"
             }
         }
     }
